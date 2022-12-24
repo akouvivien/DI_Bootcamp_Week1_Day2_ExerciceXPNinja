@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+
+}
+a{
+    color: #000000;
+}
+.login{
+    width: 50%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.register{
+    width: 50%;
+    height: 665px;
+    background: rgb(28,0,36);
+    background: linear-gradient(131deg, rgba(28,0,36,1) 0%, rgba(163,22,205,1) 100%, rgba(0,212,255,1) 100%);
+}
+.t_login{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 45px;
+}
+.input{
+    background-color: rgb(202, 197, 197);
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 30px;
+    width: 500px;
+    border: none
+
+}
+
+.l_button{
+    background-color: purple;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 30px;
+    width: 500px;
+    border: none;
+    color:white;
+    font-weight: bolder;
+    
+
+}
+
+.r_button{
+    text-align: center;
+    background-color: rgba(163,22,205,1);
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 30px;
+    width: 150px;
+    color:white;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.login p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.d_user i{
+    margin-top: 200px;
+    margin-left: 45%;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+
+.t_register{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.t_info{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer{
+    padding-left: 25px;
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+.social{
+    padding-left: 270px;
+    font-size: 25px;
+    border: black;
+}
+
+.same{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+}
